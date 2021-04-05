@@ -3,34 +3,33 @@
 
 <head>
     <title>Wireframe</title>
-    <style>table{border: 2px solid rgb(36, 33, 33);font-size: larger;text-align: center;}
-    td{border: 1px dotted rgb(206, 19, 19);font-size: larger;}
-    td{border-collapse:collapse;background-color: saddlebrown;}
-    th{background-color: tomato;}</style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <img style="width: 100% "; src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/10best-cars-group-cropped-1542126037.jpg" alt="car">
-        <nav>
+       <div> <h1>Cars</h1></div>
+        <section  class="section1"><img class="logo" src="http://motoraty-media.s3-us-west-2.amazonaws.com/news/wp-content/uploads/sites/2/2017/03/79-155938-mercedes-million-car-recall_700x400.jpeg" alt="cars">
+        <img class="img1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuy8Kq2n2A1-WXSBfZhn4c5rfg2oK26ZigJg&usqp=CAU">
+        <nav class="nav1">
             <ul>
-               <em><h1> <li style="font-family: 'Courier New', Courier, monospace; font-size: larger; color: rgb(8, 8, 8);">Kia</li>
-                <li style="font-family: 
-                'Courier New', Courier, monospace; font-size: larger; color: rgb(22, 21, 21);">Hyundai</li>
-                <li style="font-family: 'Courier New', Courier, monospace; font-size: larger; color: rgb(26, 24, 24);">Marcedes</li>
-                <li style="font-family: 'Courier New', Courier, monospace; font-size: larger; color: rgb(36, 33, 33);">BMW</li></h1></em>
+               <em><h1> <li>Kia</li>
+                <li>Hyundai</li>
+                <li>Mercedes</li>
+                <li>BMW</li></h1></em>
             </ul>
-        </nav>
+        </nav></section>
         <nav>
-        <ul><a href="https://dina-fouad.github.io/wireframe-102d27/">Dina website</a></ul>
-        <ul><a href="https://www.mercedes-benz-mena.com/en/passengercars.html?gclid=EAIaIQobChMIuaXVtuja7wIVEeztCh2YxwLqEAAYASAAEgLCPfD_BwE&gclsrc=aw.ds">Mercedes</a></ul>
-        <ul><a href="https://www.hyundai.com/jo/ar">Hyundai</a></ul>
-        <ul><a href="https://www.bmw.com/en/index.html">bmw</a></ul>
+        <ul><a class="anchor1" href="https://dina-fouad.github.io/wireframe-102d27/">Dina website</a></ul>
+        <ul><a class="anchor2" href="https://www.mercedes-benz-mena.com/en/passengercars.html?gclid=EAIaIQobChMIuaXVtuja7wIVEeztCh2YxwLqEAAYASAAEgLCPfD_BwE&gclsrc=aw.ds">Mercedes</a></ul>
+        <ul><a class="anchor3" href="https://www.hyundai.com/jo/ar">Hyundai</a></ul>
+        <ul><a class="anchor4" href="https://www.bmw.com/en/index.html">bmw</a></ul>
     </nav>
     </header>
     <main>
+        <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/10best-cars-group-cropped-1542126037.jpg" alt="car">
         <section>
-            <table style="width: auto;">
+            <table>
                 <tr>
                     <th>BMW</th>
                     <th>odi</th>
@@ -47,7 +46,7 @@
                     <td>mazda</td>
                 </tr>
             </table>
-            <article>
+            <article id="article1">
                 <ul>
                     <li>amazon</li>
                     <li>ali baba</li>
@@ -55,10 +54,11 @@
             </article>
             </ul>
             <form>
-          <label style="color: teal;" for="UserName">UserName:</label>
- <input style="color: teal;" type="username">
-<label style="color: teal;" for="password">password:</label>
- <input style="color: teal;" type="password">
+                <div id="div2">the cars is <span id="span">everything</span></div>
+          <label>UserName:</label>
+ <input type="username">
+<label for="password">password:</label>
+ <input type="password">
 <P><button>submit</button></P>
             </form>
         </section>
@@ -67,7 +67,7 @@
         <a href="http://www.google.com">google</a>
         <p>all right reserved&copy;</p>
     </footer>
-    <script src="javascript.js"></script>
+   <script src="javascript.js"></script>
 </body>
 
 </html>

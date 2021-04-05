@@ -1,10 +1,10 @@
-confirm("please Press ok");
+/*confirm("please Press ok");
 alert("Hello this is my website");
     var old=prompt("can you guess how old am I?","old");
    if(old==27){alert("good job");}
    else if(old>27){alert("no I am smaller")}
    else if(old<27){alert("no I am bigger")}
-   else {alert("no Iam sorry");}
+   else {alert("no Iam sorry but you can continue");}
    console.log("Hello to my page");
    document.write("Hello this is my page");
    var car=prompt("just choose one of this cars : BMW Mercedes Daewoo Kia Heundai?");
@@ -23,7 +23,8 @@ document.write(x);
 function myFunction(a, b) {
   for(a=1;a<b;a++){ return a * b;}
               // Function returns the product of a and b
-}
+}*/
+
 
        
    
