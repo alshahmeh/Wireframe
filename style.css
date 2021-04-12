@@ -1,23 +1,8 @@
-/*table,td,th{border:2px solid black; border-collapse:collapse ; background-color: rgb(102, 104, 114);text-align: center;}
-table{width: 100%;}
-.section1{background-color: salmon;}
-div{background-color: rgba(87, 66, 84, 0.5);text-align: center;margin: 30;letter-spacing: 20px;padding: 20;font-style: italic;color: rgba(10, 10, 9, 0.9);}
-body{background-color: rgba(18, 19, 18, 0.315);}
-.section1{background-color: rgba(106, 140, 173,0.2);}
-.logo{margin-left:2px ;width:200px;height: 100px;}
-.nav1{padding-top: 64px;}
-.anchor1{color: rgb(29, 27, 27);text-decoration: none;}
-.anchor2{color: rgb(29, 27, 27);text-decoration: none;}
-.anchor3{color: rgb(29, 27, 27);text-decoration: none;}
-.anchor4{color: rgb(29, 27, 27);text-decoration: none;}
-.anchor1:hover{color: rgb(124, 19, 230);}
-.anchor2:hover{color: rgb(15, 15, 250);}
-.anchor3:hover{color: rgb(126, 20, 233);}
-.anchor4:hover{color: rgb(19, 19, 230);}
-#article1{background-color: rgb(133, 128, 121);display: inline;}
-button{background-color: darkslategrey;color: floralwhite;}
-.img1{width: 1296px;height: 100px;}
-img{width: 100%;height: 700px;}
-#div2{float: right;color: rgb(20, 248, 20);}
-#span{color: floralwhite;}*/
-
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+.logo{width:100px;display:inline-flexbox;}
+body{display: fixed;margin: left 40px;background-color: rosybrown;}
+a{text-decoration: none;padding: 10px;font-size: 15px;font-weight: 8000;font-style: italic;font-style: bold;}
+nav{text-align: center;letter-spacing: 20px;}
+.ul1{background-color: rgba(27, 250, 239, 0.5);font-family: 'New Tegomin', serif;}
+.ul2{text-transform:uppercase;list-style-type:none;}
+li:hover:nth-child(odd){color: sienna;}

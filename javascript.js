@@ -1,29 +1,47 @@
-/*confirm("please Press ok");
-alert("Hello this is my website");
-    var old=prompt("can you guess how old am I?","old");
-   if(old==27){alert("good job");}
-   else if(old>27){alert("no I am smaller")}
-   else if(old<27){alert("no I am bigger")}
-   else {alert("no Iam sorry but you can continue");}
-   console.log("Hello to my page");
-   document.write("Hello this is my page");
-   var car=prompt("just choose one of this cars : BMW Mercedes Daewoo Kia Heundai?");
-switch(car){
-    case 'BMW':  document.write('<img style="width: 100% "; src="https://carluxur.com/wp-content/uploads/2019/12/BMW-3-Series-car.jpg">');  break;  
-    case 'Heundai':  document.write('<img style="width: 100% "; src="https://cdn.al-ain.com/images/2020/8/03/140-210115-hyundai-ioniq-2.jpeg">'); break;
-    case 'Kia':  document.write('<img style="width: 100% "; src="https://carsalesbase.com/wp-content/uploads/2013/12/Kia-Europe-Sales.png">'); break;
-    case 'Daewoo':  document.write('<img style="width: 100% "; src="https://www.cstatic-images.com/stock/400x500/252417.png">'); break;
-    case 'Mercedes':  document.write('<img style="width: 100% "; src="https://wheelz.me/wp-content/uploads/2020/09/20C0404_063.jpg">'); break;
-    default : alert("sorry There are just these cars ");
+'use strict';
+/*console.log('Hello my name is Ali and I will play with you about guessing game');*/
+alert('Hello my name is Ali and I will play with you about guessing game');
+let yourName=prompt('So,What is your name').toLocaleLowerCase();
+let old=prompt('Nice to meet you'+' '+yourName+' '+'I will ask you 5 question first can you guess How old am I?');
+/*console.log=('good job you are lucky'+' '+yourname);*/
+/*console.log('No I am bigger than'+' '+old);*/
+/*console.log('No I am less than'+' '+old);*/
+if(old===27){/*console.log=('good job you are lucky'+' '+yourname);*/
+alert=('good job you are lucky'+' '+yourname);}
+else if(old<27){/*console.log('No I am bigger than'+' '+old);*/
+alert('No I am bigger than'+' '+old);}
+else{/*console.log('No I am less than'+' '+old);*/
+alert('No I am less than'+' '+old);}
+alert('can you guess where am I from, I wil show you some options just  write that?');
+/*console.log('can you guess where am I from, I wil show you some options just  write that?');*/
+
+let country=prompt('Jordan'+'    '+'Syria'+'    '+'Palestine').toLocaleLowerCase();
+switch(country){
+    case 'jordan':/*console.log('no I am sorry');*/alert('no I am sorry'); break;
+    case 'syria':alert('yes good job'); break;
+    case 'palestine':/*console.log('no I am sorry');*/
+    alert('no I am sorry');  break;
+    default:/*console.log('no I am sorry try again');*/
+    alert('no I am sorry try again'); break;
 }
-var input=prompt("please guess how many cars in my web page",'10');
-while(input!=10){input=prompt("please guess how many cars in my web page",'10');}
-var x = myFunction(4, 3);   // Function is called, return value will end up in x
-document.write(x);
-function myFunction(a, b) {
-  for(a=1;a<b;a++){ return a * b;}
-              // Function returns the product of a and b
-}*/
+
+let university=prompt('guess what is my universty name').toLocaleUpperCase();
+if(university=='ALZARQA'){
+    /*console.log('GOOD JOB');*/
+alert('GOOD JOB');}
+else{/*console.log('no iam sorry');*/
+    alert('no iam sorry');}
+
+let speciality=prompt('so can you guess my speciality');
+if(speciality=='software engineering'){
+    /*console.log('no iam sorry');*/
+alert('GOOD JOB');}
+else{/*console.log('no iam sorry');*/
+    alert('no iam sorry');}
 
 
-       
+let kind=prompt('so the last question are you happy?  just say yes or no ').toLocaleLowerCase();
+if(kind=='yes'){/*console.log('GOOD JOB you are hopefull person');*/
+    alert('GOOD JOB you are hopefull person');}
+else{/*console.log('no iam sorry');*/
+    alert('no iam sorry you should be happy');}
