@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
 .logo{width:100px;display:inline-flexbox;}
-body{display: fixed;margin: left 40px;background-color: rosybrown;}
-a{text-decoration: none;padding: 10px;font-size: 15px;font-weight: 8000;font-style: italic;font-style: bold;}
+body{display: fixed;margin: left 40px;background-color: rgb(192, 79, 79);}
+a{text-decoration: none;padding: 10px;font-size: 20px;font-weight: 8000;font-style: italic;font-style: bold;}
 nav{text-align: center;letter-spacing: 20px;}
 .ul1{background-color: rgba(27, 250, 239, 0.5);font-family: 'New Tegomin', serif;}
 .ul2{text-transform:uppercase;list-style-type:none;}
 li:hover:nth-child(odd){color: sienna;}
+footer ul li{padding-left: 40px;}
