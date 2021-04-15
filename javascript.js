@@ -1,28 +1,26 @@
 'use strict';
 let x=0;
-/*console.log('Hello my name is Ali and I will play with you about guessing game');*/
 alert('Hello my name is Ali and I will play with you about guessing game');
 let yourName=prompt('So,What is your name').toLocaleLowerCase();
 function putMyOld(years){
   let old=prompt('Nice to meet you'+' '+yourName+' '+'I will ask you 7 questions first can you guess How old am I?');
-  if(old<years){/*console.log('No I am bigger than'+' '+old);*/
+  if(old<years){
     alert('No I am bigger than'+' '+old);}
-  else if(old>years){alert('No I am less than'+' '+old);/*console.log=('good job you are lucky'+' '+yourname);*/
+  else if(old>years){alert('No I am less than'+' '+old);
   }
   else{alert('good job you are very lucky'); x=x+1;
-    /*console.log('No I am less than'+' '+old);*/}}
+    }
 putMyOld(27);
 
 alert('can you guess where am I from, I wil show you some options just  write that?');
-/*console.log('can you guess where am I from, I wil show you some options just  write that?');*/
 function guessMyCountry(){
   let country=prompt('Jordan'+'    '+'Syria'+'    '+'Palestine').toLocaleLowerCase();
   switch(country){
-  case 'jordan':/*console.log('no I am sorry');*/alert('no I am sorry'); break;
+  case 'jordan':alert('no I am sorry'); break;
   case 'syria':alert('yes good job');x=x+1; break;
-  case 'palestine':/*console.log('no I am sorry');*/
+  case 'palestine':
     alert('no I am sorry'); break;
-  default:/*console.log('no I am sorry try again');*/
+  default:
     alert('no I am sorry try again'); break;
   }}
 guessMyCountry();
@@ -30,26 +28,24 @@ guessMyCountry();
 function checkMyUniversity(myUniversity){
   let university=prompt('guess what is my universty name').toLocaleUpperCase();
   if(university===myUniversity){
-    /*console.log('GOOD JOB');*/
     alert('GOOD JOB');x=x+1;}
-  else{/*console.log('no iam sorry');*/
+  else{
     alert('no iam sorry');}}
 checkMyUniversity('ALZARQA');
 
 function checkMySpeciality(major){
   let speciality=prompt('so can you guess my speciality');
   if(speciality===major){
-    /*console.log('no iam sorry');*/
     alert('GOOD JOB');x=x+1;}
-  else{/*console.log('no iam sorry');*/
+  else{
     alert('no iam sorry');}}
 checkMySpeciality('software engineering');
 
 function checkKind(yourmood){
   let kind=prompt('so'+' '+yourName+' '+' are you happy?  just say yes or no ').toLocaleLowerCase();
-  if(kind===yourmood){/*console.log('GOOD JOB you are hopefull person');*/
+  if(kind===yourmood){
     alert('GOOD JOB you are hopefull person');x=x+1;}
-  else{/*console.log('no iam sorry');*/
+  else{
     alert('no iam sorry you should be happy');}}
 checkKind('yes');
 
@@ -78,6 +74,6 @@ function checkFruites(){
     b++;
   }
   if(answers===fruites[0]||answers===fruites[1]||answers===fruites[2]||answers===fruites[3]||answers===fruites[4]||answers===fruites[5]){alert('the answer is correct good job');x=x+1;}
-  else{alert('sorry the correct answer are :'+' '+fruites);}}
+  else{alert('sorry the correct answer are :'+' '+fruites);}
 checkFruites();
 alert('your score is'+' '+x+' from '+7);
