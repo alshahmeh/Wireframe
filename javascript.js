@@ -3,39 +3,37 @@ let x = 0;
 alert('Hello my name is Ali and I will play with you about guessing game');
 let yourName = prompt('So,What is your name').toLocaleLowerCase();
 function putMyOld(years) {
-  let old = prompt('Nice to meet you' + ' ' + yourName + ' ' + 'I will ask you 7 questions first can you guess How old am I?');
-  if (old < years) {
-    alert('No I am bigger than' + ' ' + old);
+  let old = prompt('Nice to meet you' + ' ' + yourName + ' ' + 'I will ask you 7 questions first am I 27?').toLocaleLowerCase();
+  if (old === years) {
+    alert('yes good job'); x = x + 1;
   }
-  else if (old > years) { alert('No I am less than' + ' ' + old); }
-  else { alert('good job you are very lucky'); x = x + 1; }}
-putMyOld(27);
-alert('can you guess where am I from, I wil show you some options just  write that?');
+  else if (old === 'no') { alert('No the ranswer is' + ' ' + old); }
+  else { alert('sorry'); }}
+putMyOld('yes');
+alert('can you guess where am I from, I wil show you some options just  write yes or no?');
 function guessMyCountry(){
-  let country=prompt('Jordan'+'    '+'Syria'+'    '+'Palestine').toLocaleLowerCase();
+  let country=prompt('Syria').toLocaleLowerCase();
   switch(country){
-  case 'jordan':alert('no I am sorry'); break;
-  case 'syria':alert('yes good job');x=x+1; break;
-  case 'palestine':
-    alert('no I am sorry'); break;
+  case 'no':alert('no I am sorry'); break;
+  case 'yes':alert('yes good job');x=x+1; break;
   default:
     alert('no I am sorry try again'); break;
   }}
 guessMyCountry();
 function checkMyUniversity(myUniversity){
-  let university=prompt('guess what is my universty name').toLocaleUpperCase();
+  let university=prompt('guess yes or no my universty name is zarqa').toLocaleLowerCase();
   if(university===myUniversity){
     alert('GOOD JOB');x=x+1;}
   else{
     alert('no iam sorry');}}
-checkMyUniversity('ALZARQA');
+checkMyUniversity('yes');
 function checkMySpeciality(major){
-  let speciality=prompt('so can you guess my speciality');
+  let speciality=prompt('so can you guess by no or yes my speciality is computer sience');
   if(speciality===major){
     alert('GOOD JOB');x=x+1;}
   else{
     alert('no iam sorry');}}
-checkMySpeciality('software engineering');
+checkMySpeciality('no');
 function checkKind(yourmood){
   let kind=prompt('so'+' '+yourName+' '+' are you happy?  just say yes or no ').toLocaleLowerCase();
   if(kind===yourmood){
